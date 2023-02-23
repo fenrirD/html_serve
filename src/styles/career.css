@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@500&display=swap');
+
+ol {
+    list-style: none;
+}
+.entry-content ul {
+  list-style: disc inside;
+  margin-bottom: 22px;
+}
+.entry-content ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 22px;
+  font-size: 1em;
+  line-height: 1.5714;
+  color: #666;
+  text-indent: -22px;
+  list-style: inherit;
+}
+.entry-content ol {
+  list-style: decimal inside;
+  margin-bottom: 22px;
+}
+.entry-content ol li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 16px;
+  font-size: 1em;
+  line-height: 1.5714;
+  color: #666;
+  text-indent: -15px;
+  list-style: inherit;
+}
+
+@media screen and (min-width: 996px) {
+    .cont_process .list_process {
+        position: relative;
+        height: 341px;
+        margin-top: 21px
+    }
+
+    .cont_process .list_process:after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        margin-top: -1px;
+        background-color: #e4e4e4;
+        content: ''
+    }
+
+    .cont_process .list_process li {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 10;
+        text-align: center;
+        padding: 0px;
+        font-size: 1em;
+        text-indent: 0px;
+    }
+
+    .cont_process .list_process .item_process1 {
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -409px;
+        border-radius: 150px;
+        background-color: #eaeaea
+    }
+
+    .cont_process .list_process .item_process2 {
+        width: 180px;
+        height: 180px;
+        margin: -90px 0 0 -284px;
+        border-radius: 180px;
+        background-color: #F8CBAD;
+        z-index: 20
+    }
+
+    .cont_process .list_process .item_process3 {
+        width: 340px;
+        height: 340px;
+        margin: -164px 0 0 -128px;
+        border-radius: 340px;
+        background-color: #404040;
+        z-index: 20
+    }
+
+    .cont_process .list_process .item_process4 {
+        width: 230px;
+        height: 230px;
+        margin: -115px 0 0 180px;
+        border-radius: 230px;
+        background-color: #FFD966
+    }
+
+    .cont_process .list_process .txt_process {
+        display: inline-block;
+        position: relative;
+        font-size: 20px;
+        font-weight: normal;
+        text-align: left
+    }
+
+    .cont_process .list_process .txt_desc {
+        font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', '돋움', dotum, sans-serif
+    }
+
+    .cont_process .item_process1 .txt_process {
+        margin-top: 45px;
+        color: #000000
+    }
+
+    .cont_process .item_process2 .txt_process {
+        /*margin-top: 140px;*/
+        margin-top: 60px;
+        color: #000000
+    }
+
+    .cont_process .item_process2 .txt_process:after {
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 1px;
+        height: 112px;
+        background-color: rgba(0, 0, 0, .2);
+        content: ''
+    }
+
+    [data-theme='dark'] .cont_process .item_process2 .txt_process:after {
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 1px;
+        height: 112px;
+        background-color: #fff;
+        content: ''
+    }
+
+    .cont_process .item_process3 .txt_process {
+        margin-top: 134px;
+        color: #fff
+    }
+
+    .cont_process .item_process3 .txt_process:after {
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 1px;
+        height: 172px;
+        background-color: #2d2d2d;
+        content: ''
+    }
+    [data-theme='dark'] .cont_process .item_process3 .txt_process:after {
+        position: absolute;
+        top: 60px;
+        left: -8px;
+        width: 1px;
+        height: 172px;
+        background-color: #fff;
+        content: ''
+    }
+
+    .cont_process .item_process4 .txt_process {
+        margin-top: 85px;
+        color: #000000
+    }
+
+    .cont_process .list_process .desc_process {
+        position: absolute;
+        top: 0;
+        font-family: '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+        font-size: 16px;
+        text-align: left
+    }
+
+    .cont_process .item_process2 .desc_process {
+        top: 220px;
+        left: 40px;
+        width: 530px
+    }
+
+    .cont_process .item_process3 .desc_process {
+        top: 356px;
+        left: 128px;
+        width: 400px
+    }
+
+    .cont_process .txt_info {
+        position: relative;
+        margin: 200px 0 0 313px;
+        font-family: 'Kakao Light', '맑은 고딕', 'Malgun Gothic', 'Apple SD Gothic Neo', '돋움', dotum, sans-serif;
+        font-size: 15px
+    }
+
+    .cont_process .txt_info:after {
+        position: absolute;
+        top: -18px;
+        left: 0;
+        width: 30px;
+        height: 1px;
+        background-color: #333;
+        content: ''
+    }
+
+    [data-theme='dark'] .cont_process .txt_info:after {
+        position: absolute;
+        top: -18px;
+        left: 0;
+        width: 30px;
+        height: 1px;
+        background-color: #fff;
+        content: ''
+    }
+}
+
+
+
+.tag_0, .tag_1, .tag_2 {
+    color: var(--ifm-font-color-base);
+    padding: 4px 8px;
+    display: inline-flex;
+    border-left: 4px solid transparent;
+    border-radius: 0.25rem;
+    color: #2D50FF !important;
+    background-color: #eff1ff !important;
+    vertical-align: top;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    font-family: 'Jua', sans-serif;
+}
+.tag_1 {
+    background-color: #cfeef4 !important;
+    color: #0faac8 !important;
+}
+
+.tag_2 {
+    background-color:#ffe0fb !important;
+    color: #b92dbb !important;
+}
+
+@media screen and (max-width: 996px) {
+    .cont_process{padding:0 20px;line-height:1.5;border-top:1px solid #d4d4d4; background: #fafafa;}/* 2016-12-09 수정 */
+    [data-theme='dark'] .cont_process{padding:0 20px;line-height:1.5;border-top:1px solid #d4d4d4; background: #363636;}/* 2016-12-09 수정 */
+    .cont_process .list_process{padding-bottom:38px}/* 2016-12-09 수정 */
+    .cont_process .list_process .item_process{overflow:hidden;border-bottom:1px solid #e6e6e6}
+    .cont_process .list_process .num_process{float:left;width:50px;height:50px;margin-top:18px;border-radius:50px;font-size:18px;background-color:#eaeaea;color:#1e1e1e;text-align:center}
+    .cont_process .list_process .num_txt{display:inline-block;margin-top:12px}
+    .cont_process .list_process .cont_item{overflow:hidden;padding:30px 0 30px 15px;}
+    .cont_process .list_process .tit_item{font-size:18px}
+    .cont_process .list_process .desc_item{padding-top:3px;font-family:'Kakao Light',sans-serif;font-size:15px;line-height:1.87}
+    .cont_process .txt_info{font-family:'Kakao Light','맑은 고딕','Malgun Gothic','Apple SD Gothic Neo','돋움',dotum,sans-serif;font-size:15px;color:#6e6e6e}
+    .en .cont_process .txt_info{line-height:1.87}/* 2017-02-21 수정 */
+}
+

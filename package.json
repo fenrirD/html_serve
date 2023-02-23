@@ -1,0 +1,13 @@
+{
+  "name": "company_blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "scripts": {
+    "start": "serve -s",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
